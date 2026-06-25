@@ -1,0 +1,255 @@
+[
+  {
+    "id": 1,
+    "name": "Body Algodón Rosado",
+    "category": "bodies",
+    "price": 4500,
+    "originalPrice": 5800,
+    "discount": 22,
+    "sizes": ["0-3m", "3-6m", "6-9m", "9-12m"],
+    "colors": ["rosa", "blanco", "lila"],
+    "stock": true,
+    "isNew": true,
+    "isFeatured": true,
+    "rating": 4.8,
+    "reviews": 34,
+    "image": "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=400&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=400&q=80",
+      "https://images.unsplash.com/photo-1554227501-aba1c4aba9a0?w=400&q=80",
+      "https://images.unsplash.com/photo-1559479524-9e0cba2c17b3?w=400&q=80"
+    ],
+    "description": "Body de algodón 100% orgánico, suave y transpirable. Perfecto para el día a día de tu bebé. Con cierre de broche en la entrepierna para facilitar los cambios."
+  },
+  {
+    "id": 2,
+    "name": "Body Manga Larga Blanco",
+    "category": "bodies",
+    "price": 3800,
+    "originalPrice": 3800,
+    "discount": 0,
+    "sizes": ["0-3m", "3-6m", "6-9m"],
+    "colors": ["blanco", "crema"],
+    "stock": true,
+    "isNew": false,
+    "isFeatured": true,
+    "rating": 4.6,
+    "reviews": 21,
+    "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&q=80",
+      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=400&q=80"
+    ],
+    "description": "Body de manga larga en algodón peinado premium. Diseño clásico y atemporal, ideal para cualquier ocasión. Costuras planas para mayor comodidad."
+  },
+  {
+    "id": 3,
+    "name": "Pijama Osito Lila",
+    "category": "pijamas",
+    "price": 7200,
+    "originalPrice": 7200,
+    "discount": 0,
+    "sizes": ["0-3m", "3-6m", "6-9m", "9-12m", "12-18m"],
+    "colors": ["lila", "rosa"],
+    "stock": true,
+    "isNew": true,
+    "isFeatured": true,
+    "rating": 4.9,
+    "reviews": 48,
+    "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=400&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=400&q=80",
+      "https://images.unsplash.com/photo-1554227501-aba1c4aba9a0?w=400&q=80"
+    ],
+    "description": "Pijama enterito con capucha de osito. Confeccionado en fleece suave antipilling. Ideal para las noches frías. Con pies antideslizantes incorporados."
+  },
+  {
+    "id": 4,
+    "name": "Pijama Estampado Nubes",
+    "category": "pijamas",
+    "price": 5900,
+    "originalPrice": 7400,
+    "discount": 20,
+    "sizes": ["3-6m", "6-9m", "9-12m", "12-18m"],
+    "colors": ["celeste", "rosado"],
+    "stock": true,
+    "isNew": false,
+    "isFeatured": false,
+    "rating": 4.5,
+    "reviews": 16,
+    "image": "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?w=400&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?w=400&q=80",
+      "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=400&q=80"
+    ],
+    "description": "Pijama de dos piezas con estampado de nubes y estrellas. Tela jersey 100% algodón, suave y fresca. Pantalón con elástico cómodo."
+  },
+  {
+    "id": 5,
+    "name": "Conjunto Pantalón + Body Menta",
+    "category": "conjuntos",
+    "price": 8900,
+    "originalPrice": 11200,
+    "discount": 20,
+    "sizes": ["0-3m", "3-6m", "6-9m"],
+    "colors": ["menta", "blanco"],
+    "stock": true,
+    "isNew": false,
+    "isFeatured": true,
+    "rating": 4.7,
+    "reviews": 29,
+    "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&q=80",
+      "https://images.unsplash.com/photo-1554227501-aba1c4aba9a0?w=400&q=80"
+    ],
+    "description": "Conjunto de dos piezas: body manga corta + pantalón tipo jogger. Tela waffle de algodón texturado. Perfecto para salidas o fotos especiales."
+  },
+  {
+    "id": 6,
+    "name": "Vestidito Rosa Floral",
+    "category": "conjuntos",
+    "price": 9500,
+    "originalPrice": 9500,
+    "discount": 0,
+    "sizes": ["3-6m", "6-9m", "9-12m", "12-18m"],
+    "colors": ["rosa", "blanco"],
+    "stock": true,
+    "isNew": true,
+    "isFeatured": true,
+    "rating": 4.9,
+    "reviews": 52,
+    "image": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=400&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=400&q=80",
+      "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?w=400&q=80"
+    ],
+    "description": "Vestidito con bordado floral y calza de regalo. Tela muselina de algodón, liviana y transpirable. Cierre en la espalda con botones forrados."
+  },
+  {
+    "id": 7,
+    "name": "Conjunto Tejido Beige",
+    "category": "conjuntos",
+    "price": 7800,
+    "originalPrice": 9800,
+    "discount": 20,
+    "sizes": ["0-3m", "3-6m", "6-9m"],
+    "colors": ["beige", "blanco"],
+    "stock": true,
+    "isNew": false,
+    "isFeatured": false,
+    "rating": 4.4,
+    "reviews": 11,
+    "image": "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?w=400&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?w=400&q=80",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&q=80"
+    ],
+    "description": "Conjunto tejido artesanal: saquito + pantalón. Lana merino lavable, suave y no pica. Botones de madera natural. Ideal para regalos de recién nacido."
+  },
+  {
+    "id": 8,
+    "name": "Gorrita Algodón Lila",
+    "category": "accesorios",
+    "price": 2200,
+    "originalPrice": 2200,
+    "discount": 0,
+    "sizes": ["0-3m", "3-6m", "6-9m"],
+    "colors": ["lila", "rosa", "menta"],
+    "stock": true,
+    "isNew": true,
+    "isFeatured": false,
+    "rating": 4.6,
+    "reviews": 38,
+    "image": "https://images.unsplash.com/photo-1559479524-9e0cba2c17b3?w=400&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1559479524-9e0cba2c17b3?w=400&q=80",
+      "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=400&q=80"
+    ],
+    "description": "Gorrita de algodón peinado con volado en la frente. Ultra suave para la piel sensible del bebé. Con nudo decorativo a los lados."
+  },
+  {
+    "id": 9,
+    "name": "Set Gorrito + Escarpines",
+    "category": "accesorios",
+    "price": 3500,
+    "originalPrice": 4800,
+    "discount": 27,
+    "sizes": ["RN", "0-3m"],
+    "colors": ["blanco", "rosa"],
+    "stock": true,
+    "isNew": false,
+    "isFeatured": false,
+    "rating": 4.8,
+    "reviews": 63,
+    "image": "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=400&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=400&q=80",
+      "https://images.unsplash.com/photo-1554227501-aba1c4aba9a0?w=400&q=80"
+    ],
+    "description": "Set de recién nacido: gorrito con moño + escarpines a juego. Algodón interlock de primera calidad. Presentación en caja ideal para regalar."
+  },
+  {
+    "id": 10,
+    "name": "Babero Bordado",
+    "category": "accesorios",
+    "price": 1800,
+    "originalPrice": 1800,
+    "discount": 0,
+    "sizes": ["unico"],
+    "colors": ["blanco", "rosa", "menta"],
+    "stock": true,
+    "isNew": false,
+    "isFeatured": false,
+    "rating": 4.3,
+    "reviews": 19,
+    "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=400&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=400&q=80",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&q=80"
+    ],
+    "description": "Babero con bordado a mano de nubes y estrellitas. Doble capa de algodón con absorbente interno. Cierre de broche para fácil colocación."
+  },
+  {
+    "id": 11,
+    "name": "Zapatillas Primeros Pasos",
+    "category": "calzado",
+    "price": 5500,
+    "originalPrice": 5500,
+    "discount": 0,
+    "sizes": ["9cm", "10cm", "11cm", "12cm"],
+    "colors": ["blanco", "rosa"],
+    "stock": true,
+    "isNew": true,
+    "isFeatured": true,
+    "rating": 4.7,
+    "reviews": 27,
+    "image": "https://images.unsplash.com/photo-1567640994047-2b8a4f68bfec?w=400&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1567640994047-2b8a4f68bfec?w=400&q=80",
+      "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=400&q=80"
+    ],
+    "description": "Zapatillas de cuero vegano ultra flexible para primeros pasos. Suela antideslizante, plantilla acolchada. Diseño que permite el movimiento natural del pie."
+  },
+  {
+    "id": 12,
+    "name": "Botitas Tejidas Beige",
+    "category": "calzado",
+    "price": 3200,
+    "originalPrice": 4000,
+    "discount": 20,
+    "sizes": ["RN", "0-3m", "3-6m"],
+    "colors": ["beige", "blanco", "rosa"],
+    "stock": true,
+    "isNew": false,
+    "isFeatured": false,
+    "rating": 4.5,
+    "reviews": 41,
+    "image": "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?w=400&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?w=400&q=80",
+      "https://images.unsplash.com/photo-1567640994047-2b8a4f68bfec?w=400&q=80"
+    ],
+    "description": "Botitas tejidas artesanalmente en hilo de algodón pima. Con trenzado decorativo y lazo para ajustar. Perfectas para mantener los pies calientitos."
+  }
+]
