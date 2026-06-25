@@ -5,7 +5,6 @@ import Cart from './components/Cart'
 import Footer from './components/Footer'
 import Toast from './components/Toast'
 import SplashScreen from './components/SplashScreen'
-import CustomCursor from './components/CustomCursor'
 import ScrollProgress from './components/ScrollProgress'
 import Home from './pages/Home'
 import Catalog from './pages/Catalog'
@@ -36,7 +35,6 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <CustomCursor />
       {!ready && <SplashScreen onDone={() => setReady(true)} />}
       <AppLayout />
     </BrowserRouter>

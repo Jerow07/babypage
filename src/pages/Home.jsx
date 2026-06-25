@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 import { Truck, RefreshCw, Leaf, Star } from 'lucide-react'
 import Hero from '../components/Hero'
 import ProductGrid from '../components/ProductGrid'
-import Testimonials from '../components/Testimonials'
 import Newsletter from '../components/Newsletter'
 import products from '../data/products.json'
 
@@ -171,8 +170,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-
-      <Testimonials />
 
       <section className="max-w-6xl mx-auto px-4 sm:px-6 pb-16" id="nosotros">
         <motion.div
