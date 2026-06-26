@@ -3,6 +3,7 @@ export default function Badge({ children, variant = 'lila', className = '' }) {
     lila: 'bg-lila text-cacao',
     rosa: 'bg-rosa text-cacao',
     menta: 'bg-menta text-cacao',
+    celeste: 'bg-celeste text-cacao',
     arena: 'bg-arena/20 text-arena',
   }
 

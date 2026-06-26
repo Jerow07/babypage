@@ -33,7 +33,7 @@ export default function SplashScreen({ onDone }) {
             animate={{ scaleX: 1 }}
             transition={{ duration: 1.4, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
             style={{ originX: 0 }}
-            className="mt-8 w-40 h-1 rounded-full bg-gradient-to-r from-rosa via-lila to-menta"
+            className="mt-8 w-40 h-1 rounded-full bg-gradient-to-r from-rosa via-lila via-celeste to-menta"
           />
 
           {[...Array(8)].map((_, i) => (
@@ -46,7 +46,7 @@ export default function SplashScreen({ onDone }) {
               style={{
                 left: `${30 + i * 6}%`,
                 top: '55%',
-                background: ['#F7C5CC','#D8C5F0','#C5E8D5','#F7C5CC','#D8C5F0','#C5E8D5','#F7C5CC','#D8C5F0'][i],
+                background: ['#F7C5CC','#D8C5F0','#C5E8D5','#B8E4F0','#F7C5CC','#D8C5F0','#B8E4F0','#C5E8D5'][i],
               }}
             />
           ))}

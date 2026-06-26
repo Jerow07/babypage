@@ -213,13 +213,18 @@ function DecoBackground() {
         transition={{ duration: 7, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
         className="absolute right-[10%] top-[50%] w-40 h-40 rounded-full bg-menta/25 blur-2xl"
       />
+      <motion.div
+        animate={{ y: [8, -12, 8], scale: [1, 1.07, 1] }}
+        transition={{ duration: 9, repeat: Infinity, ease: 'easeInOut', delay: 2 }}
+        className="absolute left-[5%] top-[30%] w-32 h-32 rounded-full bg-celeste/30 blur-2xl"
+      />
 
       {[
         { left: '15%', top: '20%', size: 8, color: '#D8C5F0', d: 3 },
         { left: '80%', top: '70%', size: 10, color: '#F7C5CC', d: 4 },
         { left: '25%', top: '75%', size: 6, color: '#C5E8D5', d: 2 },
-        { left: '70%', top: '15%', size: 7, color: '#D8C5F0', d: 5 },
-        { left: '5%', top: '55%', size: 5, color: '#F7C5CC', d: 3.5 },
+        { left: '70%', top: '15%', size: 7, color: '#B8E4F0', d: 5 },
+        { left: '5%', top: '55%', size: 5, color: '#B8E4F0', d: 3.5 },
       ].map((s, i) => (
         <motion.div
           key={i}

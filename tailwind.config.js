@@ -8,6 +8,7 @@ export default {
         rosa: { DEFAULT: '#F7C5CC', dark: '#e8a0aa' },
         lila: { DEFAULT: '#D8C5F0', dark: '#b89fe0' },
         menta: { DEFAULT: '#C5E8D5', dark: '#9fd4ba' },
+        celeste: { DEFAULT: '#B8E4F0', dark: '#8BCDE3' },
         arena: '#B5A8A0',
         cacao: '#5C3D2E',
       },

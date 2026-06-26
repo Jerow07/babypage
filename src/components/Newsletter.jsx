@@ -64,7 +64,7 @@ export default function Newsletter() {
                 height: 80 + i * 20,
                 left: `${10 + i * 15}%`,
                 top: `${10 + (i % 2) * 60}%`,
-                background: ['#F7C5CC','#D8C5F0','#C5E8D5'][i % 3],
+                background: ['#F7C5CC','#D8C5F0','#C5E8D5','#B8E4F0'][i % 4],
                 opacity: 0.08,
               }}
             />

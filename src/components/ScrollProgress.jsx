@@ -17,7 +17,7 @@ export default function ScrollProgress() {
   return (
     <div className="fixed top-0 left-0 right-0 z-[35] h-1 bg-rosa/20">
       <motion.div
-        className="h-full bg-gradient-to-r from-rosa via-lila to-menta rounded-r-full"
+        className="h-full bg-gradient-to-r from-rosa via-lila via-celeste to-menta rounded-r-full"
         style={{ scaleX: progress, originX: 0 }}
       />
     </div>
