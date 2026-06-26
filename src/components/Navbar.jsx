@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Search, ShoppingBag, Menu, X, ChevronDown } from 'lucide-react'
@@ -18,6 +18,15 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [catOpen, setCatOpen] = useState(false)
+  const closeTimer = useRef(null)
+
+  const openCat = () => {
+    clearTimeout(closeTimer.current)
+    setCatOpen(true)
+  }
+  const closeCat = () => {
+    closeTimer.current = setTimeout(() => setCatOpen(false), 150)
+  }
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20)
@@ -50,10 +59,9 @@ export default function Navbar() {
               Catálogo
             </NavLink>
 
-            <div className="relative" onMouseLeave={() => setCatOpen(false)}>
+            <div className="relative" onMouseEnter={openCat} onMouseLeave={closeCat}>
               <button
-                className="flex items-center gap-1 font-body font-medium text-sm text-arena hover:text-cacao transition-colors"
-                onMouseEnter={() => setCatOpen(true)}
+                className="flex items-center gap-1 font-body font-medium text-sm text-arena hover:text-cacao transition-colors py-1"
                 aria-haspopup="true"
                 aria-expanded={catOpen}
               >
@@ -62,21 +70,25 @@ export default function Navbar() {
               <AnimatePresence>
                 {catOpen && (
                   <motion.div
-                    initial={{ opacity: 0, y: -8 }}
+                    initial={{ opacity: 0, y: -4 }}
                     animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -8 }}
-                    className="absolute top-full left-0 mt-2 bg-cream rounded-2xl shadow-card border border-rosa/30 py-2 min-w-[160px]"
+                    exit={{ opacity: 0, y: -4 }}
+                    onMouseEnter={openCat}
+                    onMouseLeave={closeCat}
+                    className="absolute top-full left-0 pt-2 min-w-[160px]"
                   >
-                    {categories.map((c) => (
-                      <Link
-                        key={c.value}
-                        to={`/catalogo?categoria=${c.value}`}
-                        className="block px-4 py-2 text-sm font-body text-arena hover:text-cacao hover:bg-rosa/20 transition-colors"
-                        onClick={() => setCatOpen(false)}
-                      >
-                        {c.label}
-                      </Link>
-                    ))}
+                    <div className="bg-cream rounded-2xl shadow-card border border-rosa/30 py-2">
+                      {categories.map((c) => (
+                        <Link
+                          key={c.value}
+                          to={`/catalogo?categoria=${c.value}`}
+                          className="block px-4 py-2.5 text-sm font-body text-arena hover:text-cacao hover:bg-rosa/20 transition-colors"
+                          onClick={() => setCatOpen(false)}
+                        >
+                          {c.label}
+                        </Link>
+                      ))}
+                    </div>
                   </motion.div>
                 )}
               </AnimatePresence>
