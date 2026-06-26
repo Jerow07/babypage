@@ -117,7 +117,7 @@ export default function ProductDetail() {
                 <Badge variant="rosa">-{product.discount}% OFF</Badge>
               )}
               {product.stock ? (
-                <Badge variant="menta">En stock</Badge>
+                <Badge variant="celeste">En stock</Badge>
               ) : (
                 <Badge variant="arena">Sin stock</Badge>
               )}
@@ -234,7 +234,7 @@ export default function ProductDetail() {
               disabled={!product.stock || adding}
               className={`w-full flex items-center justify-center gap-3 py-4 rounded-3xl font-display font-bold text-lg transition-all active:scale-95 ${
                 adding
-                  ? 'bg-menta text-cacao'
+                  ? 'bg-celeste text-cacao'
                   : product.stock
                   ? 'bg-cacao text-cream hover:bg-cacao/80'
                   : 'bg-arena/20 text-arena cursor-not-allowed'
@@ -244,7 +244,7 @@ export default function ProductDetail() {
               {adding ? '¡Agregado al carrito!' : 'Agregar al carrito'}
             </button>
 
-            <div className="mt-6 p-4 bg-menta/20 rounded-2xl">
+            <div className="mt-6 p-4 bg-celeste/40 rounded-2xl">
               <p className="font-body text-sm text-cacao">
                 🚚 Envío gratis en compras +$15.000 · 📦 Despacho en 24 hs · 🔄 Cambios sin cargo
               </p>

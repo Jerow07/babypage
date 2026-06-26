@@ -11,7 +11,7 @@ const CATEGORY_ICONS = [
   { label: 'Bodies', value: 'bodies', emoji: '👶', color: 'bg-rosa/30', hover: 'hover:bg-rosa/50' },
   { label: 'Pijamas', value: 'pijamas', emoji: '🌙', color: 'bg-lila/30', hover: 'hover:bg-lila/50' },
   { label: 'Conjuntos', value: 'conjuntos', emoji: '✨', color: 'bg-menta/30', hover: 'hover:bg-menta/50' },
-  { label: 'Accesorios', value: 'accesorios', emoji: '🎀', color: 'bg-celeste/40', hover: 'hover:bg-celeste/60' },
+  { label: 'Accesorios', value: 'accesorios', emoji: '🎀', color: 'bg-celeste', hover: 'hover:bg-celeste-dark' },
 ]
 
 export default function Home() {
@@ -201,8 +201,8 @@ export default function Home() {
               stat: '24hs',
             },
             {
-              icon: <RefreshCw size={28} className="text-celeste-dark" />,
-              bg: 'bg-celeste/30',
+              icon: <RefreshCw size={28} className="text-cacao" />,
+              bg: 'bg-celeste',
               title: 'Cambios sin costo',
               desc: 'Si no es el talle exacto, lo cambiamos sin cargo. Tu tranquilidad primero.',
               stat: '0$',

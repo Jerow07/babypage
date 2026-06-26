@@ -104,7 +104,7 @@ export default function ProductCard({ product }) {
           disabled={!product.stock || adding}
           className={`w-full flex items-center justify-center gap-2 py-2.5 rounded-2xl font-display font-bold text-sm transition-all active:scale-95 ${
             adding
-              ? 'bg-menta text-cacao'
+              ? 'bg-celeste text-cacao'
               : product.stock
               ? 'bg-rosa hover:bg-rosa-dark text-cacao'
               : 'bg-arena/20 text-arena cursor-not-allowed'

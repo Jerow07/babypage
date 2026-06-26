@@ -74,7 +74,7 @@ export default function Cart() {
                 <div
                   className={`mx-4 mt-3 px-3 py-2 rounded-2xl flex items-center gap-2 text-xs font-body ${
                     freeShipping
-                      ? 'bg-menta text-cacao'
+                      ? 'bg-celeste text-cacao'
                       : 'bg-arena/20 text-arena'
                   }`}
                 >
